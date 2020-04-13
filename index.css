@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&display=swap');
 
 body {
+	font-family: Raleway, sans-serif;
+	margin: 0;
+	height: 100%;
+	filter: blur(.04px);
+	max-width: 100%;
+	max-height: 100vh;
 	background-color: #FFEAC1;
+}
+
+.backgroundImage {
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/green-chameleon-s9CC2SKySJM-unsplash.jpg');
+	width: 100vw;
+	height: 100vh;
+	opacity: 0.8;
+}
+
+.mainSection {
+	padding-top: 150px;
 }

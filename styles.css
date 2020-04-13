@@ -1,1 +1,29 @@
-styles.css
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&display=swap');
+
+.pageHeader {
+	padding-top: 30px;
+	width: 100vw;
+	height: 10vh;
+	min-height: 60px;
+}
+
+.navHead ul {
+	justify-content: flex-end;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navHead a {
+	font-size: 25px;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 30px;
+}
+
+.navHead a:hover {
+	color: #FFFFFF;
+}
