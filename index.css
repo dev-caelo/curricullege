@@ -47,3 +47,13 @@ p.logoImage {
 	font-style: italic;
 	font-size: 40px;
 }
+
+header.blank {
+	width: 100%;
+	height: 150px;
+}
+
+.missionSection {
+	padding-left: 80px;
+	padding-right: 100px;
+}
