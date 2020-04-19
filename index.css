@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,400&display=swap');
 
 body {
 	font-family: Raleway, sans-serif;
 	margin: 0;
-	height: 100%;
-	max-width: 100%;
-	max-height: 100vh;
-	background-color: #FFEAC1;
+	height: 2000px;
+	max-width: 2277px;
+	max-height: 2000px;
+	background-color: white;
 }
 
 .backgroundImage {
 	margin: 0;
-	background-size: 1920px 1080px;
+	background-size: 1920px 1150px;
 	background-repeat: no-repeat;
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/mangoLandingImage copy.png');
 	width: 100vw;
@@ -24,15 +25,25 @@ body {
 	height: 80vh;
 	justify-content: center;
 	text-align: center;
-	background-color: white;
 }
 
 img.logoImage {
-	width: 600px;
-	height: 60%;
+	width: 625px;
+	height: auto;
 	display: block;
+	margin-top: 60px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: black;
 }
 
+h1.logoImage {
+	margin: 10px;
+	font-weight: 900;
+	font-size: 70px;
+}
+
+p.logoImage {
+	margin: 0;
+	font-style: italic;
+	font-size: 40px;
+}
