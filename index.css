@@ -5,6 +5,10 @@
 	box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	font-family: Raleway, sans-serif;
 	margin: 0;
@@ -17,7 +21,7 @@ body {
 	background-repeat: no-repeat;
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/mangoLandingImage copy.png');
 	width: 100vw;
-	height: 100vh;
+	height: 1080px;
 }
 
 .mainSection {
@@ -40,13 +44,13 @@ img.logoImage {
 h1.logoImage {
 	margin: 10px;
 	font-weight: 900;
-	font-size: 70px;
+	font-size: 80px;
 }
 
 p.logoImage {
 	margin: 0;
 	font-style: italic;
-	font-size: 40px;
+	font-size: 50px;
 }
 
 header.blank {
@@ -54,7 +58,7 @@ header.blank {
 	height: 250px;
 }
 
-.missionSection {
+#missionSection {
 	width: 100%;
 	height: 2000px;
 }
@@ -128,4 +132,9 @@ h1.missionTextTOP {
 	margin-bottom: 88px;
 }
 
+img.scrollImage {
+	margin-top: 75px;
+	width: 75px;
+	height: 75px;
+}
 
