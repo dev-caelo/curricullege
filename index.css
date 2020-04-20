@@ -138,3 +138,51 @@ img.scrollImage {
 	height: 75px;
 }
 
+.teamSection {
+	width: 100%;
+	height: 2000px;
+}
+
+.team {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+div.teamImage {
+	column-count: 3;
+	column-width: 358px;
+	column-gap: 42px;
+	display: flex;
+	width: 1025px;
+	height: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: 1025px 1500px;
+	background-repeat: no-repeat;
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/teamImage.png');
+}
+
+.teamImage:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.teamLeft {
+	width: 550px;
+	height: 1500px;
+
+}
+
+div.teamJin {
+	width: 300px;
+	height: 800px;
+}
+
+h1.teamJin {
+	float: left;
+	padding-top: 370px;
+	font-size: 33px;
+	font-weight: 700;
+}
