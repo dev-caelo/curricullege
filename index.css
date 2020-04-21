@@ -331,4 +331,22 @@ footer.aboutFooter {
 	background-color: #D2C7B2;
 	width: 100%;
 	height: 180px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+p.aboutFooter {
+	font-weight: 200;
+	font-size: 25px;
+	
+}
+
+.igLOGO {
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/glyph-logo_May2016.png');
+	width: 40px;
+	height: 40px;
 }
