@@ -17,7 +17,7 @@ body {
 
 .backgroundImage {
 	margin: 0;
-	background-size: 1920px 1080px;
+	background-size: 100vw 100%;
 	background-repeat: no-repeat;
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/mangoLandingImage copy.png');
 	width: 100vw;
@@ -329,7 +329,7 @@ p.boldDayo {
 
 footer.aboutFooter {
 	background-color: #D2C7B2;
-	width: 100%;
+	width: 100vw;
 	height: 180px;
 	text-align: center;
 	padding-top: 40px;
