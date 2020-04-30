@@ -57,7 +57,7 @@ input {
 }
 
 .hubDrop:hover .hubDropContent {
-  display: block;
+  display: none;
 }
 
 .matDrop {
