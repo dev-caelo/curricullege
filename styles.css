@@ -3,75 +3,76 @@
 input[type='text'],
 input[type='number'],
 input {
-	font-size: 16px;
+  font-size: 16px;
 }
 
-.pageHeader {
-	padding-top: 30px;
-	width: 100vw;
-	height: 6vh;
-	min-height: 60px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
 }
 
-.navHead ul {
-	justify-content: flex-end;
-	display: flex;
-	margin: 0;
-	padding: 0;
-	list-style: none;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.navHead a {
-	font-size: 25px;
-	font-weight: 200;
-	color: #000000;
-	text-decoration: none;
-	text-align: center;
-	margin-left: 40px;
-	margin-right: 30px;
-	padding-left: 30px;
+ul {
+  list-style: none;
+  
 }
 
-.navHead a:hover {
-	color: #FFFFFF;
-	text-decoration: underline;
+header.pageHeader {
+  width: 100vw;
+  height: 70px;
+
 }
 
-.hubDrop {
-  position: relative;
+.logoWrapper {
+  width: 0%;
+  height: 100%;
   float: left;
-  display: inline-block;
 }
 
-.hubDropContent {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  width: 90%;
-  min-width: 80px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-  right: 0px;
-  left: 4px;
+.navHead {
+  width: 60vw;
+  height: 50px;
+  float: right;
+  min-width: 345px;
+
 }
 
-.hubDrop:hover .hubDropContent {
-  display: none;
+ul.topList {
+  width: 100%;
+  height: 50px;
+  margin-top: 25px;
+  display: flex;
+  float: right;
+  justify-content: flex-end;
 }
 
-.matDrop {
+a.hubDrop, div.matDrop, div.suppDrop {
+  font-size: 22px;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  float: right;
+  margin-right: 50px;
   position: relative;
   display: inline-block;
+}
+
+a.hubDrop:hover, div.matDrop:hover, div.suppDrop:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 .matDropContent {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  width: 79%;
+  min-width: 225px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
   z-index: 1;
 }
 
@@ -79,21 +80,102 @@ input {
   display: block;
 }
 
-.suppDrop {
-  position: relative;
-  display: inline-block;
+div.appWrapper, div.scholarWrapper, div.compWrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div.appWrapper:hover, div.scholarWrapper:hover, div.compWrapper:hover {
+  background-color: #E1D7C4;
 }
 
 .suppDropContent {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  width: 58%;
+  width: 145px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
   z-index: 1;
+}
+
+.suppDropContent a {
+  font-size: 18px;
+}
+
+.matDropContent a {
+  font-size: 21px;
 }
 
 .suppDrop:hover .suppDropContent {
   display: block;
+}
+
+@media( max-width: 1098px ) 
+{
+  .matDropContent {
+    min-width: 185px;
+  }
+
+  .suppDropContent {
+    max-width: 130px;
+  }
+
+  .matDrop a, .suppDrop a {
+    font-size: 15px;
+  }
+
+  a.hubDrop, div.matDrop, div.suppDrop { font-size: 18px; }
+}
+
+@media( max-width: 880px )
+{
+  a.hubDrop, div.matDrop, div.suppDrop { 
+    font-size: 17px; 
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+
+  }
+
+  .logoWrapper { 
+    text-align: center; 
+    justify-content: center; 
+    display: flex;
+    width: 100%;
+  }
+
+  .headerLogo { 
+    margin-left: 0;
+    margin-right: 15px;
+    background-size: 300px, 50px;
+    width: 300px;
+    height: 50px;
+  }
+
+  ul.topList { justify-content: center; }
+
+  .navHead { 
+    width: 100%;
+    text-align: center;
+  }
+
+  .matDropContent {
+    min-width: 174px;
+  }
+
+  .suppDropContent {
+    max-width: 120px;
+  }
+
+  .matDrop a, .suppDrop a {
+    font-size: 15px;
+  }
+}
+
+@media( max-width: 630px )
+{
+  a.hubDrop, div.matDrop, div.suppDrop { margin-left: 20px; margin-right: 20px; }
 }
