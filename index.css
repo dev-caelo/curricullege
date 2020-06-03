@@ -334,7 +334,7 @@ p.boldDayo {
 footer.aboutFooter {
 	background-color: #D2C7B2;
 	width: 100vw;
-	height: 180px;
+	height: 200px;
 	text-align: center;
 	padding-top: 40px;
 }
@@ -354,4 +354,10 @@ p.aboutFooter {
 	width: 40px;
 	height: 40px;
 	margin-bottom: 20px;
+}
+
+div.infoDisclaimer {
+	margin-top: 40px;
+	font-weight: 200;
+	font-size: 15px;
 }
