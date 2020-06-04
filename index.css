@@ -17,15 +17,15 @@ body {
 
 .backgroundImage {
 	margin: 0;
-	background-size: 100vw 100%;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/mangoLandingImage copy.png');
-	width: 100vw;
+	width: 1720px;
 	height: 1080px;
 }
 
 .mainSection {
-	width: 100vw;
+	width: 1720px;
 	max-width: 100%;
 	height: 80vh;
 	justify-content: center;
@@ -78,7 +78,8 @@ div.missionBackground {
 	width: 1225px;
 	height: 1300px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-left: 247.5px;
+	margin-right: 247.5px;
 	background-size: 1225px 1300px;
 	background-repeat: no-repeat;
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/blocks%20and%20background%20details.png');
@@ -158,8 +159,8 @@ div.teamImage {
 	display: flex;
 	width: 1225px;
 	height: 1500px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 247.5px;
+	margin-right: 247.5px;
 	background-size: 1225px 1500px;
 	background-repeat: no-repeat;
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/teamImageBIG.png');
@@ -333,7 +334,7 @@ p.boldDayo {
 
 footer.aboutFooter {
 	background-color: #D2C7B2;
-	width: 100vw;
+	width: 1720px;
 	height: 200px;
 	text-align: center;
 	padding-top: 40px;

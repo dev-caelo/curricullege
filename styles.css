@@ -23,7 +23,7 @@ ul {
 }
 
 header.pageHeader {
-  width: 100vw;
+  width: 1720px;
   height: 70px;
 
 }
@@ -35,7 +35,7 @@ header.pageHeader {
 }
 
 .navHead {
-  width: 60vw;
+  width: 100%;
   height: 50px;
   float: right;
   min-width: 345px;
@@ -43,7 +43,7 @@ header.pageHeader {
 }
 
 ul.topList {
-  width: 100%;
+  width: 80%;
   height: 50px;
   margin-top: 25px;
   display: flex;
@@ -57,7 +57,7 @@ a.hubDrop, div.matDrop, div.suppDrop {
   text-decoration: none;
   color: black;
   float: right;
-  margin-right: 50px;
+  margin-right: 90px;
   position: relative;
   display: inline-block;
 }
@@ -111,71 +111,4 @@ div.appWrapper:hover, div.scholarWrapper:hover, div.compWrapper:hover {
 
 .suppDrop:hover .suppDropContent {
   display: block;
-}
-
-@media( max-width: 1098px ) 
-{
-  .matDropContent {
-    min-width: 185px;
-  }
-
-  .suppDropContent {
-    max-width: 130px;
-  }
-
-  .matDrop a, .suppDrop a {
-    font-size: 15px;
-  }
-
-  a.hubDrop, div.matDrop, div.suppDrop { font-size: 18px; }
-}
-
-@media( max-width: 880px )
-{
-  a.hubDrop, div.matDrop, div.suppDrop { 
-    font-size: 17px; 
-    margin: 0;
-    margin-left: 40px;
-    margin-right: 40px;
-
-  }
-
-  .logoWrapper { 
-    text-align: center; 
-    justify-content: center; 
-    display: flex;
-    width: 100%;
-  }
-
-  .headerLogo { 
-    margin-left: 0;
-    margin-right: 15px;
-    background-size: 300px, 50px;
-    width: 300px;
-    height: 50px;
-  }
-
-  ul.topList { justify-content: center; }
-
-  .navHead { 
-    width: 100%;
-    text-align: center;
-  }
-
-  .matDropContent {
-    min-width: 174px;
-  }
-
-  .suppDropContent {
-    max-width: 120px;
-  }
-
-  .matDrop a, .suppDrop a {
-    font-size: 15px;
-  }
-}
-
-@media( max-width: 630px )
-{
-  a.hubDrop, div.matDrop, div.suppDrop { margin-left: 20px; margin-right: 20px; }
 }
