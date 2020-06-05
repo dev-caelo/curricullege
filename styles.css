@@ -114,6 +114,6 @@ div.appWrapper:hover, div.scholarWrapper:hover, div.compWrapper:hover {
   font-size: 21px;
 }
 
-.suppDrop:hover .suppDropContent {
+.suppDrop:hover .suppDropContent, .suppDrop:active .suppDropContent {
   display: block;
 }
