@@ -6,6 +6,11 @@ input {
   font-size: 16px;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +67,7 @@ a.hubDrop, div.matDrop, div.suppDrop {
   display: inline-block;
 }
 
-a.hubDrop:hover, div.matDrop:hover, div.suppDrop:hover {
+a.hubDrop:hover, div.matDrop:hover, div.suppDrop:hover, a.hubDr {
   text-decoration: underline;
   color: white;
 }
@@ -76,7 +81,7 @@ a.hubDrop:hover, div.matDrop:hover, div.suppDrop:hover {
   z-index: 1;
 }
 
-.matDrop:hover .matDropContent {
+.matDrop:hover .matDropContent, .matDrop:active .matDropContent {
   display: block;
 }
 
