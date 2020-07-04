@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,800,900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer.aboutFooter {
+	background-color: #D2C7B2;
+	width: 100vw;
+	height: 180px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+p.aboutFooter {
+	font-weight: 200;
+	font-size: 25px;
+}
+
+.igLOGO {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/glyph-logo_May2016.png');
+	width: 40px;
+	height: 40px;
+}
+
+div.infoDisclaimer {
+	margin-top: 50px;
+	font-weight: 200;
+	font-size: 15px;
+}
+
+.background {
+	width: 100vw;
+	max-width: 1920px;
+	height: 2500px;
+
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoMoney/master/images/Group%206.png');
+	background-repeat: no-repeat;
+	background-size: 2120px 2800px;
+}
+
+.topInfo {
+	width: 100%;
+	height: 500px;
+	padding-top: 100px;
+}
+
+.topInfo:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+.topInfoLeft {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.topInfoLeft h1 {
+	font-weight: 800;
+	font-size: 85px;
+	margin-left: 150px;
+	margin-right: 50px;
+	margin-top: 80px;
+}
+
+.topInfoRight {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.topInfoRight p {
+	line-height: 65px;
+	font-size: 30px;
+	margin-top: 80px;
+	margin-right: 130px;
+	margin-left: 65px;
+}
+
+div.lineMiddle {
+	width: 100%;
+	height: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoMoney/master/images/Line.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 2px 150px;
+}
+
+.subHeader h1 {
+	font-size: 80px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+div.infoListWrapper {
+	width: 100%;
+	height: 500px;
+}
+
+div.infoListWrapper:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+.infoListWrapper .infoListElement {
+	width: 25%;
+	height: 100%;
+	padding-top: 100px;
+	float: left;
+}
+
+.infoListWrapper .infoListElement h1 {
+	font-weight: 800;
+	text-align: center;
+	font-size: 35px;
+}
+
+.infoListWrapper .infoListElement p {
+	text-align: center;
+	font-size: 23px;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-top: 20px;
+}
+
+.infoListWrapper .infoListElement a {
+	text-decoration: underline;
+}
+
+.infoListWrapper .infoListElement a:hover {
+	color: #FFC963;
+}
+
+@media screen and (max-width: 1300px) {
+	.background {
+		height: 4050px;
+	}
+
+	.topInfoRight {
+  		width: 100%;
+  		height: 400px;
+  	}
+
+  	.topInfoLeft h1 {
+  		text-align: center;
+  		margin: 0;
+  	}
+
+  	.topInfoLeft {
+   	 	width: 100%;
+   		height: 330px;
+  	}
+
+  	.topInfoRight p {
+  		text-align: center;
+  		margin: 0;
+  	}
+
+  	div.lineMiddle.top {
+  		margin-top: 200px;
+  		margin-bottom: 0px;
+  	}
+
+  	div.lineMiddle.bot {
+  		margin-top: 900px;
+  	}
+
+  	.subHeader.bot {
+  		margin-top: 90px;
+  	}
+
+  	.infoListWrapper .infoListElement {
+  		width: 100%;
+  		height: 180px;
+  	}
+
+  	footer.aboutFooter {
+  		height: 250px;
+  	}
+}
+
+@media screen and (max-width: 750px) {
+  .topInfoLeft h1 {
+  	font-size: 10vw;
+  }
+
+  .topInfoRight p {
+  	font-size: 3vw;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  }
+
+  .subHeader.bot h1 {
+  	font-size: 50px;
+  }
+
+  .background {
+  	height: 4150px;
+  }
+
+  .infoListWrapper .infoListElement {
+  	height: 250px;
+  }
+
+  .infoListWrapper .infoListElement p {
+  	font-size: 3.3vw;
+  }
+
+  .infoListWrapper .infoListElement.collegevine {
+  	height: 180px;
+  }
+  
+}

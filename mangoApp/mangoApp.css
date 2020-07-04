@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,800,900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: Raleway, sans-serif;
+	margin: 0;
+	background-color: white;
+	position: absolute;
+	width: 100vw;
+}
+
+
+div.topBodyImage {
+	width: 85vw;
+	max-width: 1300px;
+	height: 85vw;
+	max-height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	
+
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoApp/master/images/samson-ZGjbiukp_-A-unsplash.png');
+	background-repeat: no-repeat;
+	background-size: 1300px 1000px;
+}
+
+div.topImageHeader {
+	padding-top: 15%;
+	text-align: center;
+
+}
+
+div.topImageHeader h1 {
+	font-weight: 800;
+	font-size: 7vw;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+div.botImageHeader {
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+div.botImageHeader p {
+	font-size: 3vw;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+div.backgroundWrapper {
+	width: 100VW;
+	height: 5000px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+
+}
+
+div.background {
+	width: 1920px;
+	height: 3000px;
+	margin-top: 75px;
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoApp/master/images/appBackgroundBig.png');
+	background-repeat: no-repeat;
+	background-size: 1920px 3400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a.infoButton {
+	color: #db982c;
+}
+
+a.infoButton:hover {
+	color: purple;
+}
+
+
+div.infoHeaderLeft {
+	width: 100%;
+	height: 200px;
+}
+
+div.infoHeaderLeft h1 {
+	font-weight: 900;
+	font-size: 5vw;
+	text-align: left;
+	margin-left: 100px;
+}
+
+h1.infoHeaderTop {
+	font-weight: 900;
+	font-size: 70px;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 75px;
+}
+
+div.infoHeaderRight {
+	width: 100%;
+	height: 200px;
+}
+
+div.infoHeaderRight h1 {
+	font-weight: 900;
+	font-size: 5vw;
+	text-align: right;
+	margin-right: 100px;
+}
+
+div.infoBodyHead {
+	font-weight: 700;
+	font-size: 3vw;
+	text-align: left;
+	margin-left: 105px;
+	margin-top: 15px;
+}
+
+div.infoBodyText {
+	font-size: 1.5vw;
+	text-align: left;
+	margin-left: 105px;
+	margin-bottom: 45px;
+	margin-right: 145px;
+	margin-top: 25px;
+	line-height: 45px;
+}
+
+div.infoBodyHeadLeft {
+	font-weight: 700;
+	font-size: 3vw;
+	text-align: right;
+	margin-right: 105px;
+	margin-top: 20px;
+}
+
+div.infoBodyTextLeft {
+	font-size: 1.5vw;
+	text-align: right;
+	margin-right: 105px;
+	margin-bottom: 45px;
+	margin-left: 330px;
+	margin-top: 25px;
+	line-height: 45px;
+}
+
+footer.aboutFooter {
+	background-color: #D2C7B2;
+	width: 100vw;
+	height: 180px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+p.aboutFooter {
+	font-weight: 200;
+	font-size: 25px;
+}
+
+.igLOGO {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/glyph-logo_May2016.png');
+	width: 40px;
+	height: 40px;
+}
+
+div.infoDisclaimer {
+	margin-top: 50px;
+	font-weight: 200;
+	font-size: 15px;
+}
+
+@media(max-width: 1000px)
+{
+	div.infoBodyText, div.infoBodyTextLeft {
+		line-height: 20px;
+	}
+
+	div.infoBodyText {
+		margin-left: 40px;
+	}
+
+	div.infoBodyHead {
+		margin-left: 40px;
+	}
+
+	div.infoBodyHeadLeft {
+		margin-right: 40px;
+	}
+
+	div.infoHeaderRight h1 {
+		margin-right: 40px;
+	}
+
+	div.infoBodyTextLeft {
+		margin-left: 160px;
+		margin-right: 40px;
+	}
+
+	div.infoHeaderLeft, div.infoHeaderRight {
+		height: 3%;
+	}
+
+	div.infoHeaderLeft h1 {
+		margin-left: 40px;
+	}
+
+	div.backgroundWrapper {
+		height: 3500px;
+	}
+
+	footer.aboutFooter {
+		height: 240px;
+	}
+}
