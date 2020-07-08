@@ -1,5 +1,5 @@
 /*
-classInfo: holds a list which holds info about each individual -listed- ap class
+classInfo: holds a list which holds info about each individual -listed- class
 on curricullege
 */
 
