@@ -123,6 +123,27 @@ const infoUSH = [
 	"<a href='https://quizlet.com/5271371/apush-exam-250-things-to-know-flash-cards/'>- Quizlet - Major US Events Review</a>",
 ];
 
+const infoGov = [
+	"gov",
+	"US Government",
+	"<a href='https://www.youtube.com/watch?v=lc5IBsLBOzE&list=PLoGgviqq4847dhi0SrQsNup5c76p7m3Ve'>- CollegeBoard - AP Gov Review Sessions</a>",
+	"<a href='https://youtu.be/TsPzq48la7A'>- Adam Norris - AP Gov Final Exam Review</a>",
+];
+
+const infoAPES = [
+	"apes",
+	"Environmental Science",
+	"<a href='https://www.youtube.com/watch?v=2swIzu3rzII&list=PLoGgviqq4847IAo58jX32INd_UxDVW0YJ'>- CollegeBoard - APES Review Sessions</a>",
+	"<a href='http://www.bozemanscience.com/ap-environmental-science'>- Bozeman Science - AP Environmental Science</a>",
+];
+
+const infoLit = [
+	"lit",
+	"English Literature and Composition",
+	"<a href='https://www.youtube.com/watch?v=tiV5v2c6T6Q&list=PLoGgviqq4845L7Yj9c1kkIfdskkaLOUzD'>- CollegeBoard - AP Lit Review Sessions</a>",
+	"<a href='https://youtu.be/c4vq8aHv1Lc'>-Ms. Peer Editor - How to Ace the AP Literature Prose Essay</a>"
+];
+
 //classList: UPDATE the list with each class variable added
 //keep this variable at the bottom of the file, js reads from top to bottom
-const classList = [infoCSA, infoCSP, infocalcAB, infocalcBC, infoPhysics, infoChemistry, infoBiology, infoLang, infoHUG, infoWorld, infoUSH];
+const classList = [infoCSA, infoCSP, infocalcAB, infocalcBC, infoPhysics, infoChemistry, infoBiology, infoLang, infoHUG, infoWorld, infoUSH, infoGov, infoAPES, infoLit];
