@@ -129,7 +129,7 @@ div.textBlock {
 }
 
 .textBlock p {
-	font-size: 35px;
+	font-size: 32px;
 	font-weight: 700;
 	margin-top: 35px;
 	margin-right: 120px;
@@ -140,7 +140,7 @@ h1.mathHeader {
 	margin-top: 85px;
 }
 
-@media(max-width: 1300px)
+@media(max-width: 1450px)
 {
 	footer.aboutFooter {
 		height: 240px;
@@ -188,9 +188,19 @@ h1.mathHeader {
 		margin-top: 200px;
 	}
 
+	.textBlock.math p {
+		font-size: 27px;
+	}
+
 	.textBlock p {
-		font-size: 25px;
+		font-size: 29px;
 		text-align: center;
+	}
+}
+
+@media(max-width: 1200px) {
+	.textBlock.math {
+		font-size: 25px;
 	}
 }
 
