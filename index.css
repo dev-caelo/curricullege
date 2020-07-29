@@ -1,364 +1,463 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,400&display=swap');
 
 * {
-	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Raleway, sans-serif;
+	list-style: none;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
-body {
-	font-family: Raleway, sans-serif;
-	margin: 0;
-	background-color: white;
+div.pageWrapper {
+	width: 100vw;
+	height: 56.25vw;
 }
 
-.backgroundImage {
-	margin: 0;
+/* - - Background - - */
+
+div.backgroundImage {
+	width: 100%;
+	height: 100%;
+
+	background-image: url("images/mangoLandingImage copy.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/mangoLandingImage copy.png');
-	width: 1720px;
-	height: 1080px;
 }
 
-.mainSection {
-	width: 1720px;
-	max-width: 100%;
-	height: 80vh;
-	justify-content: center;
-	text-align: center;
+/* - - Header CSS - - */
+
+.navHead {
+  width: 100%;
+  height: 3vw;
+  float: right;
+  min-width: 345px;
 }
 
-img.logoImage {
-	width: 625px;
-	height: auto;
-	display: block;
-	margin-top: 60px;
+ul.topList {
+  width: 80%;
+  height: 3vw;
+  margin-top: 1.5vw;
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+}
+
+a.hubDrop, div.matDrop, div.suppDrop {
+  font-size: 1.31vw;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  float: right;
+  margin-right: 4.6875vw;
+  position: relative;
+  display: inline-block;
+}
+
+a.hubDrop:hover, div.matDrop:hover, div.suppDrop:hover, a.hubDr {
+  text-decoration: underline;
+  color: white;
+}
+
+.matDropContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 13.35vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.matDrop:hover .matDropContent, .matDrop:active .matDropContent {
+  display: block;
+}
+
+div.appWrapper, div.scholarWrapper, div.compWrapper {
+  padding-top: 0.9vw;
+  padding-bottom: 0.9vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div.appWrapper:hover, div.scholarWrapper:hover, div.compWrapper:hover {
+  background-color: #E1D7C4;
+
+  transition-duration: 0.4s;
+}
+
+.suppDropContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 7.55vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.suppDropContent a {
+  font-size: 0.9375vw;
+}
+
+.matDropContent a {
+  font-size: 1.2vw;
+}
+
+.suppDrop:hover .suppDropContent, .suppDrop:active .suppDropContent {
+  display: block;
+}
+
+ul a {
+	color: black;
+	text-decoration: none;
+}
+
+/* - - Logo Image and Text - - */
+
+div.logoWrapper {
+	width: 100%;
+	height: 90%;
+
+	padding-top: 9vw;
+}
+
+div.logoImage {
+	width: 38vw;
+	height: 24vw;
+
+	background-image: url("images/mangoLogo copy.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
 	margin-left: auto;
 	margin-right: auto;
 }
 
-h1.logoImage {
-	margin: 10px;
+div.logoText h1 {
+	font-size: 3.8vw;
 	font-weight: 900;
-	font-size: 80px;
-}
 
-p.logoImage {
-	margin: 0;
-	font-style: italic;
-	font-size: 50px;
-}
+	letter-spacing: 0.3125vw;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-header.blank {
-	width: 100%;
-	height: 250px;
-
-}
-
-#missionSection {
-	width: 100%;
-	height: 2000px;
-}
-
-.mission {
-	width: 100%;
-	height: auto;
 	text-align: center;
 }
+
+div.logoText p {
+	font-size: 2.1vw;
+	font-style: italic;
+
+	text-align: center;
+}
+
+/* - - Info and Mission - - */
 
 div.missionBackground {
-	display: flex;
-	column-count: 3;
-	column-width: 358px;
-	column-gap: 42px;
-	width: 1225px;
-	height: 1300px;
-	margin-left: 247.5px;
-	margin-right: 247.5px;
-	background-size: 1225px 1300px;
+	width: 63vw;
+	height: 65vw;
+
+	background-image: url("images/missionBackground.png");
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/blocks%20and%20background%20details.png');
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10.417vw;
+	margin-bottom: 1vw;
+
+	display: flex;
 }
 
-.missionBackground:after {
-	content: "";
-	display: table;
-	clear: both;
-}
+div.infoMissionLeft {
+	width: 30%;
+	height: 100%;
 
-div.missionLeft {
 	float: left;
-	width: 358px;
-	height: 500px;
-	margin-left: 16px;
-	margin-right: 58px;
+
+	margin-top: 12.5vw;
 }
 
-p.boldtext {
-	padding-top: 255px;
-	font-weight: 600;
-	font-size: 25px;
+div.infoMissionLeft h1, div.infoMissionLeft p {
+	margin-left: 1.718vw;
+	margin-right: 1.042vw;
 }
 
-p.sidebody {
-	font-size: 20px;
+div.infoMissionMid {
+	width: 30%;
+	height: 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.infoMissionMid h1, div.infoMissionMid p {
+	margin-left: 1.2vw;
+	margin-right: 1.042vw;
+	margin-bottom: 2.6042vw;
+}
+
+div.infoMissionRight {
+	width: 30%;
+	height: 100%;
+
+	float: right;
+
+	margin-top: 12.5vw;
+}
+
+div.infoMissionRight h1, div.infoMissionRight p {
+	margin-left: 0.52vw;
+	margin-right: 2.865vw
+}
+
+div.missionBackground h1 {
+	font-size: 1.3vw;
+	text-align: center;
+
+	margin-bottom: 2vw;
+}
+
+div.missionBackground p {
+	font-size: 1.1vw;
 	font-weight: 200;
-	line-height: 35px;
-	padding: 15px;
-	padding-left: 35px;
-	padding-right: 35px;
-	padding-top: 25px;
-	padding-bottom: 50px;
+	text-align: center;
+	line-height: 1.7vw;
 }
 
-div.missionMid {
-	padding-top: 0px;
-	width: 373px;
-	height: 50px;
-	margin-right: 40px;
-}
-
-div.missionRight {
-	width: 388px;
-	padding-right: 30px;
-}
-
-h1.missionTextTOP {
-	text-align: left;
+div.infoMissionMid h1.missionTitle {
+	font-size: 3.3vw;
 	font-weight: 900;
-	font-size: 65px;
-	margin-bottom: 110px;
+	text-align: left;
+
+	margin-bottom: 17.5vw;
 }
 
-img.scrollImage {
-	margin-top: 75px;
-	width: 75px;
-	height: 75px;
-}
+/* - - Scroll Button - - */
 
-.teamSection {
+div.scrollWrapper {
 	width: 100%;
-	height: 2000px;
+	height: 7%;
 }
 
-.team {
-	width: 100%;
-	height: auto;
-	text-align: center;
-}
+a.scrollButton, div.scrollButton {
+	width: 4vw;
+	height: 100%;
 
-div.teamImage {
-	column-count: 2;
-	column-width: 358px;
-	column-gap: 42px;
-	display: flex;
-	width: 1225px;
-	height: 1500px;
-	margin-left: 247.5px;
-	margin-right: 247.5px;
-	background-size: 1225px 1500px;
+	background-image: url("images/arrow1.png");
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/teamImageBIG.png');
+
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.teamImage:after {
-	content: "";
-	display: table;
-	clear: both;
+div.scrollButton:hover {
+	background-image: url("images/arrow2.png");
+	transition-duration: 0.5s;
 }
 
-.teamLeft {
-	width: 580px;
-	height: 1500px;
+/* - - Team Section - - */
+
+div.teamBackground {
+	width: 65vw;
+	height: 78.125vw;
+
+	background-image: url("images/teamBackground.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7.8vw;
+	margin-bottom: 15vw;
+}
+
+div.teamLeft {
+	width: 50%;
+	height: 100%;
+
 	float: left;
 }
 
-div.teamJin {
-	width: 360px;
-	height: 1200px;
-	
+div.teamRight {
+	width: 50%;
+	height: 100%;
+
+	float: right;
 }
 
-h1.teamJin {
-	float: left;
-	padding-top: 395px;
-	margin-left: 68px;
-	font-size: 42px;
+p.bold {
 	font-weight: 700;
-	margin-bottom: 20px;
 }
 
-p.teamJin {
-	float: left;
-	padding-right: 40px;
-	padding-left: 85px;
-	margin: 0;
+/* teamJin */
+
+div.textJin {
+	width: 65%;
+	height: 50%;
+	float: right;
+
+	margin-right: 9vw;
+	margin-top: 20.5vw;
+}
+
+div.textJin h1 {
+	font-size: 2.15vw;
+
+	margin-bottom: 1vw;
+	padding-left: 1.56vw;
+}
+
+div.textJin p {
+	font-size: 1vw;
+
 	text-align: right;
-	font-size: 21px;
-	line-height: 35px;
-	font-weight: 300;
-	padding-bottom: 15px;
+	line-height: 2vw;
+
+	padding-right: 6.5vw;
 }
 
-p.boldJin {
-	font-weight: 700;
-	font-size: 21px;
-	text-align: right;
-	line-height: 35px;
-	padding-right: 40px;
-	padding-left: 130px;
+p.jinBottom {
+	font-size: 1vw;
+
+	margin-top: 0.26vw;
+	margin-left: 5.2vw;
 }
 
-div.teamMia {
-	width: 560px;
-	height: 500px;
-}
+/* teamMia */
 
-h1.teamMia {
-	float: right;
-	padding-top: 57px;
-	font-size: 42px;
-	font-weight: 700;
-	margin-bottom: 10px;
-}
-
-p.teamMia {
-	margin-top: 0;
-	margin-left: 180px;
+div.textMia {
+	width: 65%;
+	height: 50%;
 	float: right;
 	text-align: right;
-	font-size: 21px;
-	line-height: 35px;
-	font-weight: 300;
-	padding-bottom: 20px;
+
+	padding-top: 5.73vw;
+	padding-right: 2.5vw;
 }
 
-p.boldMia {
-	float: right;
-	font-weight: 700;
-	font-size: 21px;
-	text-align: right;
-	padding-left: 145px;
+div.textMia h1 {
+	font-size: 2.15vw;
+
+	margin-bottom: .78vw;
+	margin-top: .78vw;
 }
 
-.teamRight {
-	width: 600px;
-	height: 1500px;
-	float: right;
-	
+div.textMia p {
+	font-size: 1vw;
+
+	line-height: 2vw;
+
+	margin-bottom: .78vw;
 }
 
-div.teamCarlo {
-	float: right;
-	width: 370px;
-	height: 600px;
-	margin-top: 20px;
+/* teamCarlo */
 
-}
-
-h1.teamCarlo {
-	text-align: left;
-	float: left;
-	font-size: 42px;
-	font-weight: 700;
-	margin-bottom: 1px;
-	margin-top: 40px;
-
-}
-
-p.teamCarlo {
+div.textCarlo {
+	width: 65%;
+	height: 39%;
 	float: left;
 	text-align: left;
-	font-size: 21px;
-	line-height: 35px;
-	font-weight: 300;
-	margin-top: 15px;
-	padding-left: 45px;
-	padding-right: 75px;
-	margin-bottom: 15px;
+
+	padding-top: 4.4vw;
+	padding-left: 10vw;
 }
 
-p.boldCarlo {
+div.textCarlo h1 {
+	font-size: 2.15vw;
+
+	margin-bottom: .5vw;
+	margin-left: 0.6vw;
+}
+
+div.textCarlo p {
+	font-size: 1vw;
+
+	line-height: 2vw;
+
+	margin-left: 3vw;
+	margin-right: 5.1vw;
+	margin-bottom: 0.9vw;
+}
+
+/* teamDayo */
+
+div.textDayo {
+	width: 65%;
+	height: 50%;
 	float: left;
-	font-weight: 700;
-	font-size: 21px;
-	line-height: 35px;
 	text-align: left;
-	padding-left: 45px;
-	padding-right: 70px;
+
+	padding-left: 15.5vw;
 }
 
-div.teamDayo {
-	float: right;
-	width: 370px;
-	height: 600px;
-	margin-top: 20px;
-	padding-left: 85px;
+div.textDayo h1 {
+	font-size: 2.15vw;
+
+	margin-bottom: 1.5vw;
 }
 
-h1.teamDayo {
-	text-align: left;
-	float: left;
-	font-size: 42px;
-	font-weight: 700;
-	margin-bottom: 3px;
-	margin-top: 25px;
+div.textDayo p {
+	font-size: 1vw;
+
+	line-height: 2vw;
+
+	margin-right: 8.4vw;
 }
 
-p.teamDayo {
-	text-align: left;
-	float: left;
-	font-size: 21px;
-	font-weight: 300;
-	line-height: 35px;
-	padding-right: 45px;
-	padding-left: 22px;
-	margin-bottom: 3px;
-	margin-top: 18px;
+p.dayoBottom {
+	margin-top: 0.6vw;
 }
 
-p.boldDayo {
-	float: left;
-	font-weight: 700;
-	font-size: 21px;
-	line-height: 35px;
-	text-align: left;
-	padding-right: 45px;
-	padding-left: 22px;
-}
+/* - - Footer - - */
 
-footer.aboutFooter {
+footer.pageFooter {
+	width: 100%;
+	height: 10vw;
+
+	padding-top: 2vw;
+
 	background-color: #D2C7B2;
-	width: 1720px;
-	height: 200px;
-	text-align: center;
-	padding-top: 40px;
+}
+
+footer.pageFooter a {
+	width: 100%;
+	height: 2.6vw;
+
+	background-color: blue;
 }
 
 p.aboutFooter {
 	font-weight: 200;
-	font-size: 25px;
-	
+	font-size: 1.5vw;
+
+	text-align: center;
 }
 
 .igLOGO {
+	width: 2.4vw;
+	height: 2.4vw;
+
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 1.2vw;
+
 	background-repeat: no-repeat;
-	background-size: 40px 40px;
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/glyph-logo_May2016.png');
-	width: 40px;
-	height: 40px;
-	margin-bottom: 20px;
+	background-size: 2.4vw 2.4vw;
+	background-image: url('images/glyph-logo_May2016.png');
 }
 
 div.infoDisclaimer {
-	margin-top: 40px;
+	margin-top: 2.4vw;
 	font-weight: 200;
-	font-size: 15px;
+	font-size: 0.9vw;
+
+	text-align: center;
 }
+
+
+
 
