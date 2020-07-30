@@ -3,7 +3,7 @@
 input[type='text'],
 input[type='number'],
 input {
-	font-size: 16px;
+	font-size: 0.96vw;
 }
 
 * {
@@ -24,7 +24,7 @@ ul {
 
 header.topPageHeader {
 	width: 100vw;
-	height: 70px;
+	height: 4.2vw;
 	background-color: #FCC968;
 }
 
@@ -35,13 +35,13 @@ header.topPageHeader {
 }
 
 .headerLogo {
-	width: 300px;
-	height: 50px;
+	width: 18vw;
+	height: 3vw;
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoApp/master/images/logo.png');
 	background-repeat: no-repeat;
-	background-size: 300px, 50px;
-	margin-top: 10px;
-	margin-left: 30px;
+	background-size: 18vw, 3vw;
+	margin-top: 0.6vw;
+	margin-left: 1.8vw;
 	float: left;
 }
 
@@ -53,16 +53,14 @@ header.topPageHeader {
 
 .navHead {
 	width: 60vw;
-	height: 50px;
+	height: 3vw;
 	float: right;
-	min-width: 345px;
-	
 }
 
 ul.topList {
 	width: 100%;
-	height: 50px;
-	margin-top: 25px;
+	height: 3vw;
+	margin-top: 1.5vw;
 	display: flex;
 	float: right;
 	justify-content: flex-end;
@@ -70,13 +68,13 @@ ul.topList {
 }
 
 a.hubDrop, div.matDrop, div.suppDrop {
-	font-size: 22px;
+	font-size: 1.32vw;
 	font-weight: 200;
 	text-decoration: none;
 	color: black;
 	float: right;
-	margin-right: 50px;
-	margin-left: 15px;
+	margin-right: 3vw;
+	margin-left: 0.9vw;
 	position: relative;
     display: inline-block;
 }
@@ -90,7 +88,7 @@ a.hubDrop:hover, div.matDrop:hover, div.suppDrop:hover {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 225px;
+  min-width: 13.5vw;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -100,8 +98,8 @@ a.hubDrop:hover, div.matDrop:hover, div.suppDrop:hover {
 }
 
 div.appWrapper, div.scholarWrapper, div.compWrapper {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 0.9vw;
+	padding-bottom: 0.9vw;
 }
 
 div.appWrapper:hover, div.scholarWrapper:hover, div.compWrapper:hover {
@@ -112,88 +110,19 @@ div.appWrapper:hover, div.scholarWrapper:hover, div.compWrapper:hover {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  width: 145px;
+  width: 8.7vw;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .suppDropContent a {
-	font-size: 18px;
+	font-size: 1.08vw;
 }
 
 .matDropContent a {
-	font-size: 21px;
+	font-size: 1.26vw;
 }
 
 .suppDrop:hover .suppDropContent {
   display: block;
 }
-
-@media( max-width: 1098px ) 
-{
-	.matDropContent {
-		min-width: 185px;
-	}
-
-	.suppDropContent {
-		max-width: 130px;
-	}
-
-	.matDrop a, .suppDrop a {
-		font-size: 15px;
-	}
-
-	a.hubDrop, div.matDrop, div.suppDrop { font-size: 18px; }
-}
-
-@media( max-width: 880px )
-{
-	a.hubDrop, div.matDrop, div.suppDrop { 
-		font-size: 17px; 
-		margin: 0;
-		margin-left: 40px;
-		margin-right: 40px;
-
-	}
-
-	.logoWrapper { 
-		text-align: center; 
-		justify-content: center; 
-		display: flex;
-		width: 100%;
-	}
-
-	.headerLogo { 
-		margin-left: 0;
-		margin-right: 15px;
-		background-size: 300px, 50px;
-		width: 300px;
-		height: 50px;
-	}
-
-	ul.topList { justify-content: center; }
-
-	.navHead { 
-		background-color: #FCC968;
-		width: 100%;
-		text-align: center;
-	}
-
-	.matDropContent {
-		min-width: 174px;
-	}
-
-	.suppDropContent {
-		max-width: 120px;
-	}
-
-	.matDrop a, .suppDrop a {
-		font-size: 15px;
-	}
-}
-
-@media( max-width: 630px )
-{
-	a.hubDrop, div.matDrop, div.suppDrop { margin-left: 20px; margin-right: 20px; }
-}
-

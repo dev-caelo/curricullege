@@ -3,28 +3,28 @@
 
 header.botPageHeader{
 	width: 100vw;
-	height: 200px;
+	height: 12.5vw;
 	background-color: #FCC968;
 }
 
 div.pageTitle {
 	width: 100%;
-	height: 45px;
+	height: 2.7vw;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 2vw;
 	background-color: #FCC968;
 }
 
 h1.pageTitle {
-	font-size: 44px;
-	margin-top: 10px;
+	font-size: 2.64vw;
+	margin-top: 0.6vw;
 	
 }
 
 div.listWrapper {
-	padding-top: 50px;
+	padding-top: 2.5vw;
 	width: 100%;
-	height: 50px;
+	height: 3vw;
 	justify-content: center;
 
 }
@@ -37,41 +37,13 @@ div.listWrapper ul {
 }
 
 div.listWrapper a {
-	font-size: 24px;
+	font-size: 1.44vw;
 	font-weight: 700;
-	margin-left: 50px;
-	margin-right: 55px;
+	margin-left: 3vw;
+	margin-right: 3.3vw;
 }
 
 div.listWrapper a:hover {
 	color: white;
 	text-decoration: underline;
-}
-
-@media( max-width: 1098px )
-{
-	div.listWrapper a {
-		margin-left: 120px;
-		margin-right: 120px;
-	}
-}
-
-@media( max-width: 880px )
-{
-	div.listWrapper a {
-		margin-right: 75px;
-		margin-left: 75px;
-	}
-}
-
-@media( max-width: 630px )
-{
-	div.listWrapper a {
-		margin-left: 35px;
-		margin-right: 35px;
-	}	
-
-	.pageTitle h1 {
-		font-size: 40px;
-	}
 }
