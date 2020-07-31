@@ -7,47 +7,47 @@ html {
 footer.aboutFooter {
 	background-color: #D2C7B2;
 	width: 100vw;
-	height: 180px;
+	height: 10.8vw;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 2.4vw;
 }
 
 p.aboutFooter {
 	font-weight: 200;
-	font-size: 25px;
+	font-size: 1.5vw;
 }
 
 .igLOGO {
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
+	margin-bottom: 1.2vw;
 	background-repeat: no-repeat;
-	background-size: 40px 40px;
+	background-size: 2.4vw 2.4vw;
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/glyph-logo_May2016.png');
-	width: 40px;
-	height: 40px;
+	width: 2.4vw;
+	height: 2.4vw;
 }
 
 div.infoDisclaimer {
-	margin-top: 50px;
+	margin-top: 3vw;
 	font-weight: 200;
-	font-size: 15px;
+	font-size: 0.9vw;
 }
 
 .background {
 	width: 100vw;
-	max-width: 1920px;
-	height: 2500px;
+	max-width: 115.2vw;
+	height: 150vw;
 
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoMoney/master/images/Group%206.png');
 	background-repeat: no-repeat;
-	background-size: 2120px 2800px;
+	background-size: 127.2vw 168vw;
 }
 
 .topInfo {
 	width: 100%;
-	height: 500px;
-	padding-top: 100px;
+	height: 30vw;
+	padding-top: 6vw;
 }
 
 .topInfo:after {
@@ -64,10 +64,10 @@ div.infoDisclaimer {
 
 .topInfoLeft h1 {
 	font-weight: 800;
-	font-size: 85px;
-	margin-left: 150px;
-	margin-right: 50px;
-	margin-top: 80px;
+	font-size: 5.1vw;
+	margin-left: 9vw;
+	margin-right: 3vw;
+	margin-top: 4.8vw;
 }
 
 .topInfoRight {
@@ -77,33 +77,33 @@ div.infoDisclaimer {
 }
 
 .topInfoRight p {
-	line-height: 65px;
-	font-size: 30px;
-	margin-top: 80px;
-	margin-right: 130px;
-	margin-left: 65px;
+	line-height: 3.9vw;
+	font-size: 1.8vw;
+	margin-top: 4.8vw;
+	margin-right: 7.8vw;
+	margin-left: 3.9vw;
 }
 
 div.lineMiddle {
 	width: 100%;
-	height: 150px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	height: 9vw;
+	margin-top: 1.2vw;
+	margin-bottom: 1.2vw;
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoMoney/master/images/Line.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 2px 150px;
+	background-size: .12vw 9vw;
 }
 
 .subHeader h1 {
-	font-size: 80px;
+	font-size: 4.8vw;
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 4.2vw;
 }
 
 div.infoListWrapper {
 	width: 100%;
-	height: 500px;
+	height: 30vw;
 }
 
 div.infoListWrapper:after {
@@ -115,22 +115,22 @@ div.infoListWrapper:after {
 .infoListWrapper .infoListElement {
 	width: 25%;
 	height: 100%;
-	padding-top: 100px;
+	padding-top: 6vw;
 	float: left;
 }
 
 .infoListWrapper .infoListElement h1 {
 	font-weight: 800;
 	text-align: center;
-	font-size: 35px;
+	font-size: 2.1vw;
 }
 
 .infoListWrapper .infoListElement p {
 	text-align: center;
-	font-size: 23px;
-	margin-left: 90px;
-	margin-right: 90px;
-	margin-top: 20px;
+	font-size: 1.38vw;
+	margin-left: 5.4vw;
+	margin-right: 5.4vw;
+	margin-top: 1.2vw;
 }
 
 .infoListWrapper .infoListElement a {
@@ -139,85 +139,4 @@ div.infoListWrapper:after {
 
 .infoListWrapper .infoListElement a:hover {
 	color: #FFC963;
-}
-
-@media screen and (max-width: 1300px) {
-	.background {
-		height: 4050px;
-	}
-
-	.topInfoRight {
-  		width: 100%;
-  		height: 400px;
-  	}
-
-  	.topInfoLeft h1 {
-  		text-align: center;
-  		margin: 0;
-  	}
-
-  	.topInfoLeft {
-   	 	width: 100%;
-   		height: 330px;
-  	}
-
-  	.topInfoRight p {
-  		text-align: center;
-  		margin: 0;
-  	}
-
-  	div.lineMiddle.top {
-  		margin-top: 200px;
-  		margin-bottom: 0px;
-  	}
-
-  	div.lineMiddle.bot {
-  		margin-top: 900px;
-  	}
-
-  	.subHeader.bot {
-  		margin-top: 90px;
-  	}
-
-  	.infoListWrapper .infoListElement {
-  		width: 100%;
-  		height: 180px;
-  	}
-
-  	footer.aboutFooter {
-  		height: 250px;
-  	}
-}
-
-@media screen and (max-width: 750px) {
-  .topInfoLeft h1 {
-  	font-size: 10vw;
-  }
-
-  .topInfoRight p {
-  	font-size: 3vw;
-  	margin-left: 10px;
-  	margin-right: 10px;
-  }
-
-  .subHeader.bot h1 {
-  	font-size: 50px;
-  }
-
-  .background {
-  	height: 4150px;
-  }
-
-  .infoListWrapper .infoListElement {
-  	height: 250px;
-  }
-
-  .infoListWrapper .infoListElement p {
-  	font-size: 3.3vw;
-  }
-
-  .infoListWrapper .infoListElement.collegevine {
-  	height: 180px;
-  }
-  
 }

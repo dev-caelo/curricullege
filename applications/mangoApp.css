@@ -14,52 +14,63 @@ body {
 
 
 div.topBodyImage {
-	width: 85vw;
-	max-width: 1300px;
-	height: 85vw;
-	max-height: 800px;
+	width: 75vw;
+	height: 35vw;
+
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 150px;
+	margin-top: 9vw;
 	
 
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoApp/master/images/samson-ZGjbiukp_-A-unsplash.png');
+	background-image: url('images/samson-ZGjbiukp_-A-unsplash.png');
 	background-repeat: no-repeat;
-	background-size: 1300px 1000px;
-	background-color: #F1DAAE;
+	background-size: 100% 125%;
 }
 
 div.topImageHeader {
-	padding-top: 15%;
+	padding-top: 18%;
 	text-align: center;
-
 }
 
 div.topImageHeader h1 {
 	font-weight: 800;
-	font-size: 7vw;
+	font-size: 3.5vw;
+
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 1vw;
+}
 
+div.topLine {
+	width: 100%;
+	height: 0.5%;
+
+	background-image: url("images/admissionsLine.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50% 100%;
 }
 
 div.botImageHeader {
 	text-align: center;
-	padding-top: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-top: 1vw;
+	padding-left: 6vw;
+	padding-right: 6vw;
 }
 
 div.botImageHeader p {
-	font-size: 3vw;
-	margin-left: auto;
-	margin-right: auto;
+	font-size: 1.5vw;
+	line-height: 3vw;
+
+	margin-left: 8%;
+	margin-right: 8%;
 
 }
 
 div.backgroundWrapper {
 	width: 100VW;
-	height: 5000px;
+	height: 275vw;
+
 	text-align: center;
 	justify-content: center;
 	display: flex;
@@ -67,14 +78,14 @@ div.backgroundWrapper {
 }
 
 div.background {
-	width: 1920px;
-	height: 3000px;
-	margin-top: 75px;
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoApp/master/images/appBackgroundBig.png');
+	width: 115.2vw;
+	height: 180vw;
+
+	background-image: url('images/appBackgroundBig.png');
 	background-repeat: no-repeat;
-	background-size: 1920px 3400px;
-	margin-left: auto;
-	margin-right: auto;
+	background-size: 100% 100%;
+
+	margin-top: 4.5vw;
 }
 
 a.infoButton {
@@ -88,142 +99,104 @@ a.infoButton:hover {
 
 div.infoHeaderLeft {
 	width: 100%;
-	height: 200px;
+	height: 8vw;
 }
 
 div.infoHeaderLeft h1 {
 	font-weight: 900;
-	font-size: 5vw;
+	font-size: 3vw;
 	text-align: left;
-	margin-left: 100px;
+
+	margin-left: 6vw;
 }
 
 h1.infoHeaderTop {
 	font-weight: 900;
-	font-size: 70px;
+	font-size: 4.2vw;
 	text-align: center;
+
 	margin: auto;
-	padding-bottom: 75px;
+	padding-bottom: 4.2vw;
 }
 
 div.infoHeaderRight {
 	width: 100%;
-	height: 200px;
+	height: 8vw;
 }
 
 div.infoHeaderRight h1 {
 	font-weight: 900;
-	font-size: 5vw;
+	font-size: 3vw;
 	text-align: right;
-	margin-right: 100px;
+	margin-right: 6vw;
 }
 
 div.infoBodyHead {
 	font-weight: 700;
-	font-size: 3vw;
+	font-size: 2.5vw;
 	text-align: left;
-	margin-left: 105px;
-	margin-top: 15px;
+	margin-left: 6.3vw;
+	margin-top: 0.9vw;
 }
 
 div.infoBodyText {
 	font-size: 1.5vw;
 	text-align: left;
-	margin-left: 105px;
-	margin-bottom: 45px;
-	margin-right: 145px;
-	margin-top: 25px;
-	line-height: 45px;
+	line-height: 2.7vw;
+
+	margin-left: 6.3vw;
+	margin-bottom: 2.7vw;
+	margin-right: 8.7vw;
+	margin-top: 0.5vw;
 }
 
 div.infoBodyHeadLeft {
 	font-weight: 700;
 	font-size: 3vw;
 	text-align: right;
-	margin-right: 105px;
-	margin-top: 20px;
+
+	margin-right: 6.3vw;
+	margin-top: 0.5vw;
 }
 
 div.infoBodyTextLeft {
 	font-size: 1.5vw;
 	text-align: right;
-	margin-right: 105px;
-	margin-bottom: 45px;
-	margin-left: 330px;
-	margin-top: 25px;
-	line-height: 45px;
+
+	margin-right: 6.3vw;
+	margin-bottom: 2.7vw;
+	margin-left: 19.8vw;
+	margin-top: 1vw;
+
+	line-height: 2.7vw;
 }
 
 footer.aboutFooter {
 	background-color: #D2C7B2;
 	width: 100vw;
-	height: 180px;
+	height: 10.8vw;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 2.4vw;
 }
 
 p.aboutFooter {
 	font-weight: 200;
-	font-size: 25px;
+	font-size: 1.5vw;
 }
 
 .igLOGO {
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
+	margin-bottom: 1.2vw;
 	background-repeat: no-repeat;
-	background-size: 40px 40px;
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/glyph-logo_May2016.png');
-	width: 40px;
-	height: 40px;
+	background-size: 100% 100%;
+	background-image: url('../images/glyph-logo_May2016.png');
+	width: 2.4vw;
+	height: 2.4vw;
 }
 
 div.infoDisclaimer {
-	margin-top: 50px;
+	margin-top: 3vw;
 	font-weight: 200;
-	font-size: 15px;
-}
-
-@media(max-width: 1000px)
-{
-	div.infoBodyText, div.infoBodyTextLeft {
-		line-height: 20px;
-	}
-
-	div.infoBodyText {
-		margin-left: 40px;
-	}
-
-	div.infoBodyHead {
-		margin-left: 40px;
-	}
-
-	div.infoBodyHeadLeft {
-		margin-right: 40px;
-	}
-
-	div.infoHeaderRight h1 {
-		margin-right: 40px;
-	}
-
-	div.infoBodyTextLeft {
-		margin-left: 160px;
-		margin-right: 40px;
-	}
-
-	div.infoHeaderLeft, div.infoHeaderRight {
-		height: 3%;
-	}
-
-	div.infoHeaderLeft h1 {
-		margin-left: 40px;
-	}
-
-	div.backgroundWrapper {
-		height: 3500px;
-	}
-
-	footer.aboutFooter {
-		height: 240px;
-	}
+	font-size: 0.9vw;
 }
