@@ -15,7 +15,7 @@ body {
 
 div.topBodyImage {
 	width: 80vw;
-	height: 35vw;
+	height: 30vw;
 
 	margin-left: auto;
 	margin-right: auto;
@@ -29,7 +29,7 @@ div.topBodyImage {
 }
 
 div.topImageHeader {
-	padding-top: 16%;
+	padding-top: 12%;
 	text-align: center;
 }
 
@@ -52,6 +52,12 @@ div.topLine {
 	background-size: 50% 100%;
 }
 
+div.topLine.end {
+	height: 0.1%;
+
+	margin-bottom: 3vw;
+}
+
 div.botImageHeader {
 	text-align: center;
 	padding-top: 1vw;
@@ -70,7 +76,7 @@ div.botImageHeader p {
 
 div.backgroundWrapper {
 	width: 100VW;
-	height: 275vw;
+	height: 235vw;
 
 	text-align: center;
 	justify-content: center;

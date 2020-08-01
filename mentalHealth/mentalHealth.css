@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Raleway, sans-serif;
+	list-style: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+div #mentalHealth a {
+	font-size: 1.44vw;
+	font-weight: 700;
+	margin-left: 0vw;
+	margin-right: 0vw;
+}

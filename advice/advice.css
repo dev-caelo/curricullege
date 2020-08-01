@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300, 600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Raleway, sans-serif;
+	list-style: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* - page setup - */
+
+div.pageWrapper {
+	width: 100vw;
+	height: 200vw;
+}
+
+div.topText {
+	width: 70%;
+	height: 10%;
+
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+
+div.topText p {
+	font-weight: 600;
+	font-size: 1.3vw;
+	line-height: 3vw;
+}
+
+/* - box css - */
+
+div.row {
+	width: 100%;
+	height: 17.5%;
+
+	display: flex;
+}
+
+div.textBox {
+	width: 33%;
+	height: 33vw;
+
+	background-color: #FCFAF7;
+
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+.middle {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left {
+	margin-left: 15%;
+	margin-right: 1.5%;
+}
+
+div.right {
+	margin-right: 15%;
+	margin-left: 1.5%;
+
+	float: right;
+}
+
+/* box img */
+
+div.quoteImageWrapper {
+	width: 100%;
+	height: 25%;
+}
+
+div.quoteImage {
+	width: 22%;
+	height: 85%;
+
+	background-image: url("images/quoteImage.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	margin-right: auto;
+	margin-left: auto;
+
+	margin-top: 2vw;
+}
+
+/* box nameTitle */
+
+div.nameTitle {
+	width: 100%;
+	height: 20%;
+}
+
+div.nameTitle p {
+	font-weight: 600;
+	font-size: 1.3vw;
+	line-height: 2.5vw;
+
+	text-align: center;
+}
+
+/* box line */
+
+div.boxLine {
+	width: 60%;
+	height: 0.2%;
+
+	background-image: url("images/adviceLine.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 3.5%;
+}
+
+/* box questions */
+
+div.questionWrapper {
+	width: 100%;
+	height: 40%;
+}
+
+.italic {
+	font-style: italic;
+}
+
+div.questionWrapper p {
+	font-size: 0.825vw;
+	font-weight: 600;
+
+
+	margin-left: 7.5%;
+	margin-right: 14%;
+
+	line-height: 1.75vw;
+}
+
+div.questionWrapper.smaller p {
+	font-size: .7vw;
+	line-height: 1.3vw;
+
+}
+
+div.questionWrapper.small p {
+	font-size: .8vw;
+	line-height: 1.45vw;
+
+}
+
+/* person specific css */
+
+h1.parkText {
+	font-weight: 500;
+	font-size: 1.7vw;
+	line-height: 3.3vw;
+
+	text-align: center;
+
+	margin-left: 11%;
+	margin-right: 11%;
+}
+
+/* footer */
+
+footer.aboutFooter {
+	background-color: #D2C7B2;
+	width: 100vw;
+	height: 9vw;
+	text-align: center;
+
+	padding-top: 2.4vw;
+	margin-top: 5vw;
+}
+
+p.aboutFooter {
+	font-weight: 200;
+	font-size: 1.5vw;
+}
+
+.igLOGO {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.2vw;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url('../images/glyph-logo_May2016.png');
+	width: 2.4vw;
+	height: 2.4vw;
+}
+
+div.infoDisclaimer {
+	margin-top: 3vw;
+	font-weight: 200;
+	font-size: 0.9vw;
+}
+
