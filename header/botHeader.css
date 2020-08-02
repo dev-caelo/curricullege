@@ -3,7 +3,7 @@
 
 header.botPageHeader{
 	width: 100vw;
-	height: 12.5vw;
+	height: 7.5vw;
 	background-color: #FCC968;
 }
 
@@ -11,39 +11,40 @@ div.pageTitle {
 	width: 100%;
 	height: 2.7vw;
 	text-align: center;
-	padding-top: 2vw;
-	background-color: #FCC968;
+
+	margin-bottom: 1.5vw;
 }
 
 h1.pageTitle {
 	font-size: 2.64vw;
-	margin-top: 1%;
-	
 }
 
 div.listWrapper {
-	padding-top: 2.2%;
 	width: 100%;
-	height: 3vw;
-	justify-content: center;
+	height: 2.5vw;
 
 }
 
 div.listWrapper ul {
 	display: flex;
 	justify-content: center;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 div.listWrapper a {
 	font-size: 1.44vw;
 	font-weight: 700;
+
 	margin-left: 3vw;
-	margin-right: 3.3vw;
+	margin-right: 3vw;
 }
 
 div.listWrapper a:hover {
 	color: white;
 	text-decoration: underline;
+}
+
+@media(max-width: 900px) {
+	div.listWrapper a {
+		display: none;
+	}
 }
