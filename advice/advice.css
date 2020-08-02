@@ -178,7 +178,7 @@ h1.parkText {
 footer.aboutFooter {
 	background-color: #D2C7B2;
 	width: 100vw;
-	height: 9vw;
+	height: 7.5vw;
 	text-align: center;
 
 	padding-top: 2.4vw;
@@ -187,7 +187,7 @@ footer.aboutFooter {
 
 p.aboutFooter {
 	font-weight: 200;
-	font-size: 1.5vw;
+	font-size: 1vw;
 }
 
 .igLOGO {
