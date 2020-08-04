@@ -10,6 +10,8 @@
 
 html {
 	scroll-behavior: smooth;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 div.pageWrapper {
@@ -48,7 +50,7 @@ ul.topList {
 
 a.hubDrop, div.matDrop, div.suppDrop {
   font-size: 1.31vw;
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
   color: black;
   float: right;

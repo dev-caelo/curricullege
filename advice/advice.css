@@ -9,6 +9,10 @@
 	list-style: none;
 }
 
+html, body {
+	overflow-x: initial;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -17,12 +21,12 @@ html {
 
 div.pageWrapper {
 	width: 100vw;
-	height: 200vw;
+	height: 370.7vw;
 }
 
 div.topText {
 	width: 80%;
-	height: 10%;
+	height: 4%;
 
 	margin-left: 10%;
 	margin-right: 10%;
@@ -40,7 +44,7 @@ div.topText p {
 
 div.row {
 	width: 100%;
-	height: 21.5%;
+	height: 42.5vw;
 
 	display: flex;
 }
@@ -61,12 +65,12 @@ div.textBox {
 }
 
 .left {
-	margin-left: 10%;
+	margin-left: 9%;
 	margin-right: 1.5%;
 }
 
 div.right {
-	margin-right: 10%;
+	margin-right: 9%;
 	margin-left: 1.5%;
 
 	float: right;
@@ -89,7 +93,6 @@ div.quoteImage {
 
 	margin-right: auto;
 	margin-left: auto;
-
 	margin-top: 2vw;
 }
 
@@ -131,7 +134,7 @@ div.questionWrapper {
 }
 
 div.questionWrapper p.italic {
-	
+
 	font-weight: 500;
 
 }
@@ -177,7 +180,7 @@ h1.parkText {
 
 footer.aboutFooter {
 	background-color: #D2C7B2;
-	width: 100vw;
+	width: 100%;
 	height: 7.5vw;
 	text-align: center;
 
@@ -206,4 +209,3 @@ div.infoDisclaimer {
 	font-weight: 200;
 	font-size: 0.9vw;
 }
-
