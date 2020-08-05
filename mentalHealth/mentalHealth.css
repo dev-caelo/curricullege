@@ -18,7 +18,7 @@ div #mentalHealth a {
 
 div.line {
 	background-image: url("images/line.png");
-	background-size: 100% 1%;
+	background-size: 100% 2%;
 	background-repeat: no-repeat;
 }
 
@@ -60,18 +60,18 @@ div.topPrefaceWrapper {
 }
 
 div.topPrefaceWrapper div.line {
-	width: 30%;
+	width: 35%;
 	height: 60%;
 
-	margin-top: 1.25vw;
+	margin-top: 1.3vw;
 }
 
 div.topPrefaceWrapper h1 {
-	margin-right: 4%;
-	margin-left: 4%;
+	margin-right: 5%;
+	margin-left: 5%;
 	margin-top: 1%;
 
-	font-size: 1.2vw;
+	font-size: 1.5vw;
 }
 
 /* prefaceBlock text */
@@ -79,7 +79,16 @@ div.topPrefaceWrapper h1 {
 div.prefaceBlock p {
 	font-size: 1.1vw;
 	text-align: center;
+	line-height: 2vw;
 
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+h1.prefaceBottom {
+	font-size: 1.5vw;
+	letter-spacing: 0.5vw;
+	text-align: center;
+
+	margin-top: 1.5vw;
 }
