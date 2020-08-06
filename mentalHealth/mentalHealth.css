@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,900&display=swap');
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -18,7 +21,7 @@ div #mentalHealth a {
 
 div.line {
 	background-image: url("images/line.png");
-	background-size: 100% 2%;
+	background-size: 100% 4%;
 	background-repeat: no-repeat;
 }
 
@@ -91,4 +94,243 @@ h1.prefaceBottom {
 	text-align: center;
 
 	margin-top: 1.5vw;
+}
+
+/* vectorBackground */
+
+div.vectorBackground {
+	width: 100vw;
+	height: 850vw;
+
+	background-image: url("images/vectors.png");
+	background-repeat: no-repeat;
+	background-size: 100% 95%;
+}
+
+/* importance Section */
+
+div.importanceWrapper {
+	width: 100%;
+	height: 38vw;
+	display: flex;
+}
+
+div.importanceHeader {
+	width: 50%;
+	height: 94%;
+
+	margin-top: 6%;
+}
+
+div.importanceHeader h1 {
+	font-weight: 900;
+	font-size: 3.75vw;
+	letter-spacing: 1vw;
+
+	margin-left: 30%;
+}
+
+div.importanceText {
+	width: 50%;
+	height: 98%;
+
+	margin-top: 2%;
+	margin-right: 10.5%;
+}
+
+div.importanceText p {
+	font-weight: 500;
+	font-size: 1.35vw;
+	line-height: 3.5vw;
+}
+
+/* transition section */
+
+div.transition {
+	width: 100%;
+	height: 13vw;
+
+	margin-bottom: 3vw;
+}
+
+div.transition p {
+	font-weight: 500;
+	font-size: 1.5vw;
+	text-align: center;
+	line-height: 3vw;
+
+	margin-left: 17.5%;
+	margin-right: 17.5%;
+	margin-bottom: 3vw;
+}
+
+div.transition .line {
+	width: 40%;
+	height: 2.5vw;
+}
+
+/* misc stuff */
+
+div.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.italics {
+	font-style: italic;
+}
+
+/* text under importance */
+
+div.textBelowImportance {
+	width: 100%;
+	height: 51.5vw;
+}
+
+div.textBelowImportance p {
+	font-weight: 500;
+	font-size: 1.35vw;
+	line-height: 3.5vw;
+
+	margin-left: 11%;
+	margin-right: 15%;
+	margin-top: 3%;
+}
+
+/* look after mental health area */
+
+div.lookMentalHealth {
+	width: 100%;
+	height: 35vw;
+	display: flex;
+}
+
+div.healthTriangle {
+	width: 30%;
+	height: 75%;
+
+	background-image: url("images/chart group.png");
+	background-repeat: no-repeat;
+	background-size: 90% 100%;
+	background-position: right;
+
+	margin-top: 7%;
+	margin-left: 5%;
+}
+
+div.textTriangle {
+	width: 47.5%;
+	height: 100%;
+
+	margin-right: 5%;
+}
+
+div.textTriangle h1 {
+	font-weight: 900;
+	font-size: 2.5vw;
+	text-align: right;
+	line-height: 4vw;
+
+	margin-top: 1.5vw;
+	margin-right: 0.5%;
+	margin-bottom: 1vw;
+}
+
+div.textTriangle p {
+	font-weight: 500;
+	font-size: 1.35vw;
+	line-height: 3.5vw;
+
+	text-align: right;
+}
+
+p.smallTextTriangle {
+	margin-left: 35%;
+}
+
+p.underPyramidText {
+	font-weight: 500;
+	font-size: 1.35vw;
+	line-height: 3.5vw;
+
+
+	margin-left: 12.5%;
+	margin-right: 17%;
+	margin-bottom: 5%;
+}
+
+/* selfcare and compassion section */
+
+div.selfCareCompassion {
+	width: 100%;
+	height: 50vw;
+
+	background-image: url("images/selfcare.png");
+	background-repeat: no-repeat;
+	background-size: 80% 85%;
+	background-position: center;
+
+	margin-top: 5vw;
+}
+
+div.selfCareImage {
+	width: 100%;
+	height: 100%;
+
+	padding-top: 0.2vw;
+}
+
+div.selfCareImage h1 {
+	font-weight: 900;
+	font-size: 4.5vw;
+	text-align: center;
+	line-height: 5vw;
+	letter-spacing: 1vw;
+
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10vw;
+}
+
+div.selfCareImage .line {
+	width: 55%;
+	height: 3vw;
+	background-size: 100% 9%;
+
+	margin-top: 3vw;
+}
+
+div.selfCareImage p {
+	font-weight: 500;
+	font-size: 2vw;
+	text-align: center;
+	line-height: 4vw;
+
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 0;
+}
+
+div.practiceCareCompassion {
+	width: 80%;
+	height: 75vw;
+
+	margin-top: 4vw;
+}
+
+div.practiceCareCompassion h1 {
+	font-size: 3.5vw;
+	font-weight: 900;
+	line-height: 4vw;
+
+	margin-right: 40%;
+	margin-bottom: 2%;
+}
+
+div.practiceCareCompassion p {
+	font-weight: 500;
+	font-size: 1.475vw;
+	line-height: 3.5vw;
+
+	margin-bottom: 2%;
 }
