@@ -1,187 +1,159 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700,900&display=swap');
 
-body {
-	height: 2000px;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Raleway, sans-serif;
+	list-style: none;
 }
 
-footer.aboutFooter {
-	background-color: #D2C7B2;
-	width: 100vw;
-	height: 250px;
-	text-align: center;
-	padding-top: 40px;
+html {
+	scroll-behavior: smooth;
 }
 
-p.aboutFooter {
-	font-weight: 200;
-	font-size: 25px;
-}
+/* - background css - */
 
-.igLOGO {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
+div.resourceBackground {
+	width: 100%;
+	height: 170vw;
+
+	background-image: url("images/background graphics.png");
 	background-repeat: no-repeat;
-	background-size: 40px 40px;
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/glyph-logo_May2016.png');
-	width: 40px;
-	height: 40px;
+	background-size: 115% 100%;
 }
 
-div.infoDisclaimer {
-	margin-top: 30px;
-	font-weight: 200;
-	font-size: 13px;
+/* - general css - */
+
+.centered {
+	margin-left: 8%;
+	margin-right: 10%;
 }
 
-div.infoHeader h1 {
-	font-weight: 900;
-	font-size: 3vw;
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 20px;
-}
-
-div.classUI {
-	width: 100vw;
-	height: 2000px;
-}
-
-div.classInfo {
-	width: 90%;
-	height: 30%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-div.outputWrapper {
-	width: 90%;
-	height: 50%;
-	background-color: #F1DAAE;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 80px;
-	padding-top: 5%;
-}
-
-div.classOutput {
-	width: 90%;
-	height: 90%;
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-	overflow-x: scroll;
-	overflow-y: scroll;
-	white-space: nowrap;
-}
-
-button {
-	outline: black;
-}
-
-button.classButton {
-	width: 100%;
-	height: 12.5%;
-	background-color: #393939;
-	transition-duration: 0.3s;
-	border: none;
-	border-color: #000000;
-	color: white;
-	margin-top: 5px;
-}
-
-button.classButton:hover {
-	background-color: #5a5a57;
-	cursor: pointer;
-}
-
-div.infoSection {
-	display: none;
-}
-
-div.infoWrapper {
-	width: 100%;
-	height: 10%;
-	align-content: flex-end;
-	display: none;
-}
-
-button.miniButton {
-	color: white;
-	width: 25%;
-	height: 100%;
-	border: 0;
-	
-	margin-bottom: 10px;
+.left {
 	float: left;
-	transition-duration: 0.3s;
-	background-color: #393939;
 }
 
-button.miniButton:hover {
-	background-color: #5a5a57;
+.right {
+	float: right;
 }
 
-button.ENGminiButton {
-	width: 50%;
+/* fontstuff */
+
+.pt500 {
+	font-weight: 500;
 }
 
-button.miniButton:hover {
-	cursor: pointer;
+.pt700 {
+	font-weight: 700;
 }
 
-div.classOutput h1 {
-	display: none;
-}
-
-button.clrButton {
-	display: block;
-	border: none;
-	width: 10%;
-	height: 5%;
-	margin: 0;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #393939;
-	color: white;
-	min-width: 100px;
-}
-
-button.clrButton:hover {
-	background-color: #5a5a57;
-	transition-duration: 0.3s;
-	cursor: pointer;
-}
-
-div.classOutput p {
-	margin-bottom: 30px;
-	font-size: 45px;
+.pt900 {
 	font-weight: 900;
-	margin-left: 70px;
-	margin-top: 30px;
 }
 
-div.classOutput p a {
-	margin: 0;
-	font-size: 25px;
-	font-weight: 300;
-	margin-right: 25px;
+/* - topPageText - */
+
+p.topPageText {
+	font-size: 1.35vw;
+	line-height: 3.5vw;
+
+	margin-top: 4%;
+	margin-right: 11.5%;
+	margin-bottom: 3%;
 }
 
-div.classOutput p a:hover {
-	color: #FCC968;
+/* - classes css - */
+
+h1.sectionHeader {
+	font-size: 3vw;
 }
 
-h1.botInfo {
-	font-weight: 800;
-	font-size: 2vw;
-	text-align: center;
+div.columnWrapper {
+	width: 100%;
+	height: 95%;
+
+	margin-top: 3%;
+	display: flex;
 }
 
-h1.botInfo.top {
-	margin-top: 50px;
+div.column {
+	width: 49%;
+	height: 100%;
 }
 
-h1.botInfo.mid {
-	margin-top: 25px;
+.column h1 {
+	font-weight: 900;
+	font-size: 1.8vw;
+	float: left;
+
+	margin-top: 1.85vw;
+	margin-right: 4vw;
+}
+
+.column a {
+	font-weight: 700;
+	font-size: 1.1vw;
+	float: left;
+
+	margin-top: 1vw;
+	margin-right: 5vw;
+}
+
+.column p {
+	font-weight: 700;
+	font-size: 1.1vw;
+	float: left;
+
+	margin-top: 1vw;
+	margin-right: 5vw;
+}
+
+.column a:hover {
+	color: #FDC968;
+}
+
+div.line {
+	width: 1%;
+	height: 92.5%;
+
+	background-image: url("images/Line 24.png");
+	background-size: 50% 150%;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+div.right.column {
+	margin-left: 3%;
+}
+
+div.gap {
+	width: 100%;
+	height: 2vw;
+	float: left;
+}
+
+div.stemSection {
+	width: 60%;
+	height: 55vw;
+}
+
+div.humanSection {
+	width: 60%;
+	height: 31vw;
+
+	margin-top: 3.5vw;
+}
+
+div.socialSection {
+	width: 60%;
+	height: 30vw;
+
+	margin-top: 4vw;
+}
+
+div.testSection {
+	width: 50%;
+	height: 20vw;
+
+	margin-top: 4vw;
 }
