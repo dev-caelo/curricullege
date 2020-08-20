@@ -157,3 +157,35 @@ div.testSection {
 
 	margin-top: 4vw;
 }
+
+/* footer */
+
+footer.aboutFooter {
+	background-color: #D2C7B2;
+	width: 100vw;
+	height: 10.8vw;
+	text-align: center;
+	padding-top: 2.4vw;
+}
+
+p.aboutFooter {
+	font-weight: 500;
+	font-size: 1.5vw;
+}
+
+.igLOGO {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.2vw;
+	background-repeat: no-repeat;
+	background-size: 2.4vw 2.4vw;
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/glyph-logo_May2016.png');
+	width: 2.4vw;
+	height: 2.4vw;
+}
+
+div.infoDisclaimer {
+	margin-top: 3vw;
+	font-weight: 500;
+	font-size: 0.9vw;
+}
