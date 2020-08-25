@@ -100,11 +100,11 @@ h1.prefaceBottom {
 
 div.vectorBackground {
 	width: 100vw;
-	height: 850vw;
+	height: 403.7vw;
 
 	background-image: url("images/vectors.png");
 	background-repeat: no-repeat;
-	background-size: 100% 95%;
+	background-size: 100% 807.5vw;
 }
 
 /* importance Section */
@@ -377,4 +377,36 @@ div.healthInApps p {
 	margin-top: 2%;
 	margin-left: 17.15%;
 	margin-right: 7%;
+}
+
+/* footer */
+
+footer.aboutFooter {
+	background-color: #D2C7B2;
+	width: 100vw;
+	height: 10.8vw;
+	text-align: center;
+	padding-top: 2.4vw;
+}
+
+p.aboutFooter {
+	font-weight: 500;
+	font-size: 1.5vw;
+}
+
+.igLOGO {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.2vw;
+	background-repeat: no-repeat;
+	background-size: 2.4vw 2.4vw;
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/mangoLanding/master/images/glyph-logo_May2016.png');
+	width: 2.4vw;
+	height: 2.4vw;
+}
+
+div.infoDisclaimer {
+	margin-top: 3vw;
+	font-weight: 500;
+	font-size: 0.9vw;
 }
