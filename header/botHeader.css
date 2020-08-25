@@ -44,7 +44,7 @@ div.listWrapper a:hover {
 }
 
 @media(max-width: 900px) {
-	div.listWrapper a {
+	header.botPageHeader {
 		display: none;
 	}
 }
