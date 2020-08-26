@@ -100,7 +100,7 @@ h1.prefaceBottom {
 
 div.vectorBackground {
 	width: 100vw;
-	height: 403.7vw;
+	height: 405.4vw;
 
 	background-image: url("images/vectors.png");
 	background-repeat: no-repeat;
@@ -339,7 +339,7 @@ div.healthInApps {
 	width: 100%;
 	height: 60vw;
 
-
+	margin-top: 1.5%;
 }
 
 div.healthInApps h1.right {
