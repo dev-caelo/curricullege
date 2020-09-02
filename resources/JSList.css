@@ -192,5 +192,7 @@ div.infoDisclaimer {
 
 div.actDiv {
 	width: 100%;
-	height: 1vw;
+	height: 7vw;
+
+	margin-top: 6.5vw;
 }
