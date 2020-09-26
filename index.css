@@ -297,6 +297,14 @@ p.bold {
 	font-weight: 700;
 }
 
+div.contactBlock {
+	width: 20vw;
+	height: 3.5vw;
+	z-index: -1;
+
+	display: none;
+}
+
 /* teamJin */
 
 div.textJin {
@@ -310,9 +318,8 @@ div.textJin {
 
 div.textJin h1 {
 	font-size: 2.15vw;
-
-	margin-bottom: 1vw;
 	padding-left: 1.56vw;
+	cursor: default;
 }
 
 div.textJin p {
@@ -320,8 +327,38 @@ div.textJin p {
 
 	text-align: right;
 	line-height: 2vw;
+	margin-top: 1vw;
 
 	padding-right: 6.5vw;
+}
+
+div.textJin h1:hover, #jinwoo a:hover {
+	color: #FCC968;
+	text-shadow: 0 0 3px #000000;
+}
+
+div.textJin h1:hover~#jinwoo, #jinwoo:hover {
+	font-size: 1vw;
+
+	margin: 0;
+	margin-left: 2vw;
+
+	text-align: left;
+	display: block;
+}
+
+#jinwoo {
+	width: 13.5vw;
+	height: 5vw;
+}
+
+#jinwoo p, #jinwoo a {
+	text-decoration: none;
+	color: black;
+	float: right;
+
+	padding: 0;
+	text-align: left;
 }
 
 p.jinBottom {
@@ -346,8 +383,30 @@ div.textMia {
 div.textMia h1 {
 	font-size: 2.15vw;
 
-	margin-bottom: .78vw;
 	margin-top: .78vw;
+	cursor: default;
+}
+
+div.textMia h1:hover, #mia a:hover {
+	color: #FCC968;
+}
+
+div.textMia h1:hover~#mia, #mia:hover {
+	font-size: 1vw;
+
+	margin-left: 2vw;
+	margin-top: 0;
+
+	display: block;
+
+}
+
+#mia p, #mia a {
+	margin: 0;
+	text-decoration: none;
+	color: black;
+
+	margin-right: 1vw;
 }
 
 div.textMia p {
@@ -356,6 +415,7 @@ div.textMia p {
 	line-height: 2vw;
 
 	margin-bottom: .78vw;
+	margin-top: .78vw;
 }
 
 /* teamCarlo */
@@ -372,9 +432,31 @@ div.textCarlo {
 
 div.textCarlo h1 {
 	font-size: 2.15vw;
+	cursor: default;
 
-	margin-bottom: .5vw;
 	margin-left: 0.6vw;
+}
+
+div.textCarlo h1:hover, #carlo a:hover {
+	color: #FCC968;
+}
+
+div.textCarlo h1:hover~#carlo, #carlo:hover {
+	font-size: 1vw;
+
+	margin-left: 2vw;
+	margin-top: 0;
+
+	display: block;
+
+}
+
+#carlo p, #carlo a {
+	margin: 0;
+	text-decoration: none;
+	color: black;
+
+	margin-left: 1vw;
 }
 
 div.textCarlo p {
@@ -385,7 +467,9 @@ div.textCarlo p {
 	margin-left: 3vw;
 	margin-right: 5.1vw;
 	margin-bottom: 0.9vw;
+	margin-bottom: .5vw;
 }
+
 
 /* teamDayo */
 
@@ -395,13 +479,41 @@ div.textDayo {
 	float: left;
 	text-align: left;
 
-	padding-left: 15.5vw;
+	padding-left: 15vw;
 }
 
 div.textDayo h1 {
 	font-size: 2.15vw;
+	margin: 0;
+	margin-left: 0.25vw;
+	cursor: default;
+}
 
-	margin-bottom: 1.5vw;
+div.textDayo h1:hover, #dayo a:hover {
+	color: #FCC968;
+}
+
+div.contactBlock#dayo {
+	height: 2vw;
+
+}
+
+div.textDayo h1:hover~#dayo, #dayo:hover {
+	font-size: 1vw;
+	margin: 0;
+
+	display: table-cell;
+
+}
+
+#dayo p, #dayo a {
+	margin-top: .5vw;
+	margin-left: 0.25vw;
+	vertical-align: bottom;
+
+	text-decoration: none;
+	color: black;
+
 }
 
 div.textDayo p {
@@ -410,10 +522,14 @@ div.textDayo p {
 	line-height: 2vw;
 
 	margin-right: 8.4vw;
+	margin-top: 1.5vw;
+	margin-left: 0.25vw;
 }
 
-p.dayoBottom {
+div.textDayo p.dayoBottom {
 	margin-top: 0.6vw;
+	margin-right: 11.5vw;
+	margin-left: 0.25vw;
 }
 
 /* - - Footer - - */
