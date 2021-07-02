@@ -18,7 +18,7 @@ css files. (index and styles are just,, no). it has also introduced me to javasc
 
 in the end, this project was truly carried by the rest of @teamCurricullege
 - dayo and jinwoo compiled all of the useful information in the site, and had this idea in the first place
-- mia is fully responsible for the amazing design of all our pages (except resources, thats why it looks out of place sorry!!!)
+- mia is fully responsible for the amazing design of all our pages
 
 all i did was make it work out in code. it was fun though!
 
