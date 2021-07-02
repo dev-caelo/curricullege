@@ -13,8 +13,7 @@ anyways, thanks for checking out my github!
 even so, i honestly have no idea how you arrived here (perhaps i added this as part of my college application? internship?)
 
 personally, this page has taught me much about fundamental website creation - as evidenced by the sphagetti that is most of the earlier
-css files. (index and styles are just,, no). it has also introduced me to javascript, and its various applications in web development - which i used (very) sparingly in this project < refer to resources page under support > 
--also it is probably the cleanest code u can find in this project (thanks apcsa)
+css files. (index and styles look like a nightmare). it has also introduced me to javascript, and its various applications in web development - which i used (very) sparingly in this project < refer to resources page under support > 
 
 in the end, this project was truly carried by the rest of @teamCurricullege
 - dayo and jinwoo compiled all of the useful information in the site, and had this idea in the first place
