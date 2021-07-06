@@ -1,33 +1,36 @@
-# mangoLanding
- landing page
+# Curricullege
 
 - 7/8/20
-hello! curricullege is a small startup project we have
-embarked on throughout this unprecedented (overused i know) time.
+Hello! Curricullege is a small startup project we have
+worked on throughout the COVID-19 pandemic in cooperation with
+our local public library in their college readiness initiative.
 
-it has served to not only showcase our skills and teamworking abilities,
-but also a way to support other students suffering under the same situation - especially
-with college application season around the corner.
+<img width="1431" alt="Curricullege Landing Screen" src="https://user-images.githubusercontent.com/58437950/124539111-ac16a280-ddd1-11eb-9648-a7a7130982bc.png">
 
-anyways, thanks for checking out my github! 
-even so, i honestly have no idea how you arrived here (perhaps i added this as part of my college application? internship?)
+It has served to not only showcase our skills and teamworking abilities,
+but also a way to support other students in our community applying to college 
+under the current situation. 
 
-personally, this page has taught me much about fundamental website creation - as evidenced by the sphagetti that is most of the earlier
-css files. (index and styles look like a nightmare). it has also introduced me to javascript, and its various applications in web development - which i used (very) sparingly in this project < refer to resources page under support > 
+Personally, this page has taught me much about the fundamentals of website development - as evidenced by the sphagetti that is most of the earlier
+css files. (index and styles look like a nightmare). It has also introduced me to javascript, and its various applications in web development - which i used (very) sparingly in this project < refer to resources page under support > 
+- EDIT: The JS component was scrapped for a list design as in the current version
 
-in the end, this project was truly carried by the rest of @teamCurricullege
-- dayo and jinwoo compiled all of the useful information in the site, and had this idea in the first place
-- mia is fully responsible for the amazing design of all our pages
+In the end, this project was truly carried by the rest of @teamCurricullege
+- Dayo and Jinwoo compiled all of the useful information in the site, and had this idea in the first place
+- Mia is fully responsible for the amazing finalized design of all our pages (such as this!)
 
-all i did was make it work out in code. it was fun though!
+<img width="575" alt="Curricullege About Section" src="https://user-images.githubusercontent.com/58437950/124539261-f6981f00-ddd1-11eb-95a7-62ae3053624d.png">
 
+I was in charge of the prototype designs and implementing the final designs with HTML and CSS.
 
+Thank you for visiting! we truly hope the site will be useful for other students, best of luck to all! - teamCurricullege
 
-thank you for visiting! we truly hope the site will be useful for other students, best of luck to all! - teamCurricullege
-
-and thanks for visiting my github! i hope its less of an eyesore in the future! - carlo 7/8/20
+And thanks for visiting my github! I hope it's less of an eyesore in the future! - carlo 7/8/20
 
 EDIT: [10/9/20]
-- our local library has endorsed the site and paid for our use of the domain for 2 years! 
-- also, the site is officially up on www.curricullege.com [its been out since september but i forgot this page existed!]
+- Our local library has endorsed the site and paid for our use of the domain for 2 years! 
+- The site is officially up on www.curricullege.com
 
+EDIT: [7/5/21]
+- Spell-check and re-editing this README, added pictures of some pages
+- Curricullege is officially one year old!
